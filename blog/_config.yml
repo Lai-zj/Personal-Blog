@@ -111,4 +111,4 @@ mathjax:
 
 # 文章浏览/点赞计数，API 由 Cloudflare Worker 提供（部署方法见 counter-worker/README.md）
 counter:
-  api: '' # Worker 地址，例如 https://api.laizjblog.com
+  api: 'https://api.laizjblog.com' # Worker 地址，例如 https://api.laizjblog.com
