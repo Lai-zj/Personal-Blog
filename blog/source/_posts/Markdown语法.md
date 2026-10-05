@@ -51,11 +51,11 @@ $$
 ---
 哈哈哈
 
-链接:[百度](baidu.com"去搜百度")
+链接:[百度](https://www.baidu.com "去搜百度")
 
 引用链接:[百度][id]
 
-[id]:baidu.com"去搜百度"
+[id]: https://www.baidu.com "去搜百度"
 
 请参考[标题1](#标题1)
 
