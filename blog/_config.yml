@@ -102,3 +102,9 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Math
+mathjax:
+  tags: none
+  single_dollars: true
+  every_page: false

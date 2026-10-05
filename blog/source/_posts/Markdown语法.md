@@ -4,6 +4,7 @@ date: 2026-10-04 11:16:55
 tags: MarkDown
 categories:
   - Blog Deployment
+mathjax: true
 ---
 # 标题1
 ## 标题2
