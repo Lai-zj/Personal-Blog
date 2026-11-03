@@ -1,2 +1,10 @@
 categories: 
   - "工程热力学"
+
+categories: 
+  - "工程热力学"
+  - "零碎知识"
+
+categories: 
+  - "工程热力学"
+  - "热力学第一定律"

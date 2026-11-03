@@ -6,7 +6,9 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "new": "hexo new --path",
+    "assets": "find source/_posts -name '*.md' -exec sh -c 'for f; do mkdir -p \"${f%.md}\"; done' _ {} +"
   },
   "overrides": {
     "strip-ansi": "6.0.1"

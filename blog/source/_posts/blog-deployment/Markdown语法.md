@@ -32,8 +32,19 @@ for x in list:
 
 数学公式：
 $$
-\frac{\partial f}{\partial x}=2\sqrt{a}x
+\frac{\partial f}{\partial x}=2\sqrt{a}x\\\\
+\pm\\\\
+\leq \geq
 $$
+
+$$
+\begin{cases}
+大括号
+\end{cases}
+$$
+$\vec{v},\overrightarrow{AB},\mathbf{v},\boldsymbol{v}$
+
+$\sum_{i=1}^{n} i$
 
 表格：
 | 左对齐 | 居中对齐 | 右对齐 |
@@ -63,5 +74,10 @@ $$
 URL：
 http://www.laizjblog.com
 
+**加粗用两个星号**
 
+[另一个文件](other.md)
+[子目录里的文件](docs/other.md)
+[上级目录的文件](../other.md)
+[跳到 other.md 的某个标题](other.md#安装说明)
 

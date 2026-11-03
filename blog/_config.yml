@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -49,6 +49,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
+
   hljs: false
 prismjs:
   preprocess: true
@@ -98,6 +99,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+# Markdown 渲染（hexo-renderer-marked）
+# postAsset: true 让正文里的相对图片（![](图.png)）到文章的同名文件夹里查找资源。
+# 若为 false，渲染器会跳过 PostAsset 查询、直接输出 src="/图.png"，图片必然 404 且不报错。
+marked:
+  postAsset: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -108,6 +115,8 @@ mathjax:
   tags: none
   single_dollars: true
   every_page: false
+  # 额外加载的 TeX 扩展包：ams 提供 cases / aligned / pmatrix 等环境（默认不加载）
+  packages: ['ams']
 
 # 文章浏览/点赞计数，API 由 Cloudflare Worker 提供（部署方法见 counter-worker/README.md）
 counter:
