@@ -202,3 +202,7 @@ Ong 用平面 9 自由度模型（骨盆在矢状面的旋转和平移、双侧�
 - 最优装置力矩曲线与无辅助时的净关节力矩不同：理想踝跖屈装置的力矩峰值更晚，大小约为无辅助踝力矩的一半；它承担了比目鱼肌的大部分工作，但腓肠肌仍需保持活动，因为它还要产生膝屈曲力矩
 
 肌肉驱动仿真补充实验，提供肌肉层面的动力学和能量分析；如同 CAD 改变了工程设计，它也有潜力加速外骨骼的开发。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

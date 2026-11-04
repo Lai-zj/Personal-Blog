@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo clean && hexo generate && node tools/check-math.js",
+    "check:math": "node tools/check-math.js",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",

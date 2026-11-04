@@ -158,3 +158,7 @@ Rajagopal 等人的研究展示了统计方法 + 生物力学模型的威力：
 - 用创造力和努力，通过生物力学为世界做出有意义的贡献
 
 Let's keep moving!
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

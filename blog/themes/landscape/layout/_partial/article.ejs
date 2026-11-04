@@ -11,6 +11,12 @@
       </header>
     <% } %>
     <div class="e-content article-entry" itemprop="articleBody">
+      <% if (!index) { %>
+        <blockquote class="article-declaration">
+          <p>本博客为个人非商业性技术分享，引用的教材、论文等资料版权归原作者所有，仅供学习与研究参考。如有版权疑问，欢迎联系。</p>
+          <p>This blog is for personal, non-commercial learning and research purposes only. All cited materials remain the copyright of their respective owners.</p>
+        </blockquote>
+      <% } %>
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>

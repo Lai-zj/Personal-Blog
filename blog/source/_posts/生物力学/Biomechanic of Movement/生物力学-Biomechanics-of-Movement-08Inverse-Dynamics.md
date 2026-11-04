@@ -192,3 +192,7 @@ Arnold 和 Hamner 在跑步机上采集标记位置和 GRF，用 OpenSim 做三�
 - 这种步态改变容易学习，能减轻疼痛、改善功能；个性化训练效果更好
 
 本章的逆向动力学只给出净关节力矩，还没有说明肌肉如何分工；这正是下一章“肌肉力优化”要解决的问题。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

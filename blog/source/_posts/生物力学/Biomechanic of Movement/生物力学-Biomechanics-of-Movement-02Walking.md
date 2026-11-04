@@ -236,3 +236,7 @@ McGeer（1990）发现：不需要大脑、脊髓或肌肉，只要给一个具�
 - 小腿假肢：支撑早期和中期髋伸肌活动增加
 
 步行是最主要的身体活动形式；理解步行动力学，对恢复和改善神经系统、肌肉骨骼疾病患者的步行能力至关重要。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

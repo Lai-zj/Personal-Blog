@@ -220,3 +220,7 @@ Tim Dorn 等人研究了高速冲刺，发现跑者用两种策略提高速度�
 - **约 7 m/s 以上**：GRF 不再增加，改为提高**步频**——在腾空相把腿摆得更快
 
 至此，走和跑的基本力学已经用简单模型讲完：走路靠钟摆动力学，跑步靠弹性储能。下一步要回答“哪些肌肉产生了这些力”，就要进入肌肉的生物学和计算建模（第 4 章起）。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

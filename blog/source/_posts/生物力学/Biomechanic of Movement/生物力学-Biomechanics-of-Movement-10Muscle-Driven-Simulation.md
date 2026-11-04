@@ -187,3 +187,7 @@ $$
   - 基于神经肌肉控制和动态仿真，预测新动作和对新条件的适应
 - 例子：用骨标本建立南方古猿手部模型，研究其握力是否足以制造石器；研究踝关节损伤预防中肌肉的作用
 - simtk.org 上共享了成千上万的 OpenSim 模型、仿真和工具，便于复现、验证和扩展研究
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

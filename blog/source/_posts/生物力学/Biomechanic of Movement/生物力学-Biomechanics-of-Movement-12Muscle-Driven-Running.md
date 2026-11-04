@@ -207,3 +207,7 @@ Elliot Hawkes 骑车时看到跑者的腿像钟摆一样摆动，想到用弹簧
 - 所以节能不仅来自摆动相，也来自支撑相
 
 一个简单的弹簧装置就能提高跑步经济性，也提醒我们：换一个视角可能带来有创意的发现。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

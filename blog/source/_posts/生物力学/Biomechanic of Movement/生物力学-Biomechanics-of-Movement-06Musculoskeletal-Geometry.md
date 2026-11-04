@@ -224,3 +224,7 @@ $$
 4. 用力矩臂把肌肉力转换为关节力矩
 
 这是“正向问题”：已知 EMG 和关节角，求肌肉力与关节力矩。后续三章会介绍反向问题：从运动和外部力反推关节角、关节力矩和肌肉力。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

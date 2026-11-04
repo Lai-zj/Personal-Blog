@@ -115,8 +115,11 @@ mathjax:
   tags: none
   single_dollars: true
   every_page: false
-  # 额外加载的 TeX 扩展包：ams 提供 cases / aligned / pmatrix 等环境（默认不加载）
-  packages: ['ams']
+  # 额外加载的 TeX 扩展包（都是显式预加载，不依赖 autoload，
+  # 否则部署环境里 \boldsymbol 会报 Undefined control sequence）：
+  #   ams        -> cases / aligned / bmatrix / \iint / \dfrac 等
+  #   boldsymbol -> \boldsymbol
+  packages: ['ams', 'boldsymbol']
 
 # 文章浏览/点赞计数，API 由 Cloudflare Worker 提供（部署方法见 counter-worker/README.md）
 counter:

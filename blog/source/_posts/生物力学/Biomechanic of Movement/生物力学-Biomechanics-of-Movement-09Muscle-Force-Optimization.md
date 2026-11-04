@@ -184,3 +184,7 @@ $$
 - 说明动态优化可以同时优化装置参数和人体协调，为个性化手术、植入物、假肢和外骨骼设计提供工具
 
 至此，从测量、逆向动力学到肌肉力优化，已经能把外部运动与内部肌肉、关节载荷联系起来。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

@@ -252,3 +252,7 @@ Seth 等人建立了肩关节运动学模型，用 **4 个自由度**描述肩�
 - 用 OpenSim 对 34 名澳式橄榄球运动员的侧切动作分析，找出 9 名外翻力矩最大者，再搜索既接近真实姿态、又对 ACL 更安全的可行姿态
 - 一致有效的策略：把身体重心朝目标方向移动；仅移动 **3 cm** 就能把峰值外翻力矩降低 **40**%
 - 模型还能针对个人给出不同建议——3 cm 的预防，可能省下 3 万美元的治疗
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

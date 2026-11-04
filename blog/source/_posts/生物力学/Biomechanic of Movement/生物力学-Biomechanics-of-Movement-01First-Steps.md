@@ -164,3 +164,7 @@ categories:
 身体分段：躯干（trunk）、骨盆（pelvis）、大腿（thigh）、小腿（shank）、足（foot）。
 
 以上术语对应书中图 1.15–1.19，后续章节会反复使用。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

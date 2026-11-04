@@ -267,3 +267,7 @@ $$
 - **有限元模型**：把肌肉分成成千上万个单元，精度最高，可处理纤维长度不均、非均匀应变和侧向力传递；但计算量可比 Hill 型模型大几百倍
 
 选择模型时，要在**细节**和**可计算性**之间取平衡：研究走、跑等涉及几十块肌肉的整体运动时，Hill 型模型通常是最合适的折中。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press

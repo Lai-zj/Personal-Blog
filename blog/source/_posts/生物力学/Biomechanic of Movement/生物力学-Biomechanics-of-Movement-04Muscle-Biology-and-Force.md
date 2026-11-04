@@ -245,3 +245,7 @@ $$
 - 但模型容易理解，又足够描述肌肉驱动运动，是后续仿真的基础
 
 下一章会把这里的概念组合成完整的肌肉-肌腱计算模型。
+
+---
+参考教材:
+* 《Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation》Thomas K. Uchida, Scott L. Delp, David Delp, MIT Press
