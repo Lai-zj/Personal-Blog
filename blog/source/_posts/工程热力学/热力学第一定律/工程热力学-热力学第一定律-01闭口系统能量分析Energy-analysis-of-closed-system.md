@@ -1,11 +1,12 @@
 ---
-title: '[工程热力学]-[热力学第一定律]-01闭口系统能量分析Energy analysis of closed system'
+title: '[工程热力学]-[二、热力学第一定律]-01闭口系统能量分析Energy analysis of closed system'
 mathjax: true
 date: 2026-10-14 15:00:03
+permalink: '2026/10/14/工程热力学-热力学第一定律-01闭口系统能量分析Energy-analysis-of-closed-system/'
 tags:
 categories: 
   - "工程热力学"
-  - "热力学第一定律"
+  - "二、热力学第一定律"
 ---
 
 # 目录
