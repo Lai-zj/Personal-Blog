@@ -18,7 +18,15 @@ const json = (res, obj, status = 200) => {
 };
 
 http.createServer((req, res) => {
-  if (req.method === 'OPTIONS') return json(res, {}, 204);
+  if (req.method === 'OPTIONS') {
+    res.writeHead(204, {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Max-Age': '86400',
+    });
+    return res.end();
+  }
   const url = new URL(req.url, 'http://localhost');
   let body = '';
   req.on('data', (c) => (body += c));

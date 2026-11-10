@@ -40,7 +40,8 @@ $$
 
 $$
 \begin{cases}
-大括号
+x=1\\\\
+y=2
 \end{cases}
 $$
 $\vec{v},\overrightarrow{AB},\mathbf{v},\boldsymbol{v}$

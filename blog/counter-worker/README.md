@@ -45,6 +45,17 @@
 
 然后 `curl -X POST https://api.laizjblog.com/api/view -H 'Content-Type: application/json' -d '{"path":"/test/"}'`，views 会变为 1；同一 IP 再 POST 一次仍是 1。
 
+浏览器发 POST 前会先发 CORS 预检，所以还要确认 OPTIONS 返回 **204** 且带 `Access-Control-Allow-Origin: *`：
+
+```bash
+curl -i -X OPTIONS https://api.laizjblog.com/api/like \
+  -H 'Origin: https://laizjblog.com' \
+  -H 'Access-Control-Request-Method: POST' \
+  -H 'Access-Control-Request-Headers: content-type'
+```
+
+注意 204 响应不能带 body（`new Response(body, {status: 204})` 会抛异常，预检直接 500）。
+
 ## 已知限制
 
 - 去重按 IP：同一访客换网络后会再计一次。

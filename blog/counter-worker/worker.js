@@ -23,15 +23,20 @@ async function sha256Hex(text) {
   return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Max-Age': '86400',
+};
+
 function json(obj, status) {
   return new Response(JSON.stringify(obj), {
     status,
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
       'Cache-Control': 'no-store',
+      ...CORS_HEADERS,
     },
   });
 }
@@ -45,7 +50,11 @@ function cleanPath(p) {
 
 export default {
   async fetch(request, env) {
-    if (request.method === 'OPTIONS') return json({}, 204);
+    // 预检必须返回 204 且不能带 body：204/304 等状态携带 body 时
+    // Response 构造器会直接抛异常，浏览器拿到 500 后会拦截真正的 POST。
+    if (request.method === 'OPTIONS') {
+      return new Response(null, { status: 204, headers: CORS_HEADERS });
+    }
 
     const url = new URL(request.url);
     let path = '';

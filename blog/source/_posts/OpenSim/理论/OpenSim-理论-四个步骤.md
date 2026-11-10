@@ -28,7 +28,7 @@ categories:
 $$
 \begin{aligned}
 \text{Squared Error} 
-=& \sum_{i=1}^{\text{markers}} w_i \left\| \overrightarrow{x_i}^{\text{subject}} - \overrightarrow{x_i}^{\text{model}} \right\|^2 \\
-&+ \sum_{j=1}^{\text{joint angles}} w_j \left\| {\theta_j}^{\text{subject}} - {\theta_j}^{\text{model}} \right\|^2
+=& \sum_{i=1}^{\text{markers}} w_i \left\\| \overrightarrow{x_i}^{\text{subject}} - \overrightarrow{x_i}^{\text{model}} \right\\|^2 \\\\
+&+ \sum_{j=1}^{\text{joint angles}} w_j \left\\| {\theta_j}^{\text{subject}} - {\theta_j}^{\text{model}} \right\\|^2
 \end{aligned}
 $$

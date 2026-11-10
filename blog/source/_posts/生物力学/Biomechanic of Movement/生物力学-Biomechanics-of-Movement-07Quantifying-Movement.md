@@ -81,7 +81,7 @@ categories:
 
 两个参考系 A、B 之间的姿态用 **3×3 旋转矩阵** $^{A}R_{B}$ 表示，其列是 B 系三个坐标轴单位矢量在 A 系中的坐标。点坐标变换：
 $$
-p_A = {}^{A}R_{B}\, p_B
+p_A = {}^{A}R_{B}\\, p_B
 \tag{4.1}
 $$
 旋转矩阵是**正交矩阵**，逆等于转置：
@@ -98,7 +98,7 @@ $$
 
 从 body 系回到 lab 系，要按相反顺序组合：
 $$
-{}^{lab}R_{body} = {}^{lab}R_{f_1}\, {}^{f_1}R_{f_2}\, {}^{f_2}R_{body}
+{}^{lab}R_{body} = {}^{lab}R_{f_1}\\, {}^{f_1}R_{f_2}\\, {}^{f_2}R_{body}
 \tag{4.3}
 $$
 矩阵乘法从右往左作用：先施加 ${}^{f_2}R_{body}$。
@@ -149,7 +149,7 @@ $$
 
 不同身体节段的参考系原点通常不同，所以还要加上平移：
 $$
-p_A = {}^{A}R_{B}\, p_B + p_A^{AoBo}
+p_A = {}^{A}R_{B}\\, p_B + p_A^{AoBo}
 \tag{4.8}
 $$
 其中 $p_A^{AoBo}$ 是 B 系原点到 A 系原点的位置矢量（在 A 系中表示）。
@@ -181,7 +181,7 @@ $$
 
 设股骨、胫骨的解剖参考系分别为 femur、tibia，则
 $$
-{}^{femur}T_{tibia} = {}^{femur}T_{thigh}\, {}^{thigh}T_{lab}\, {}^{lab}T_{shank}\, {}^{shank}T_{tibia}
+{}^{femur}T_{tibia} = {}^{femur}T_{thigh}\\, {}^{thigh}T_{lab}\\, {}^{lab}T_{shank}\\, {}^{shank}T_{tibia}
 \tag{4.11}
 $$
 - $^{thigh}T_{femur}$ 和 $^{shank}T_{tibia}$ 通过静态标定获得（受试者站立时同时采集两套标记）
@@ -201,7 +201,7 @@ $$
 - 在每个时刻，对模型的广义坐标（空间位置 + 各关节角）最小化目标函数
 
 $$
-J(q) = \sum_{k\in \mathrm{Markers}} w_k \left\| x_k^{exp} - x_k(q) \right\|^2
+J(q) = \sum_{k\in \mathrm{Markers}} w_k \left\\| x_k^{exp} - x_k(q) \right\\|^2
 \tag{5.1}
 $$
 其中：
